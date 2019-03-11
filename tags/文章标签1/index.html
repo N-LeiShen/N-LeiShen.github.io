@@ -8,7 +8,7 @@
   
   
   
-  <title>归档: 2019 | 沈磊的个人网站</title>
+  <title>标签: 文章标签1 | 沈磊的个人网站</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -46,6 +46,8 @@
   
 
   
+    <link href="https://cdn.bootcss.com/social-share.js/1.0.16/css/share.min.css" rel="stylesheet">
+  
   
   <script src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js" async></script>
   
@@ -65,7 +67,7 @@
   <header>
     <div class="site-brand">
       <div class="site-title">
-        <a href="/">沈磊的个人博客</a>
+        <a href="/">GODBMW.com</a>
       </div>
     </div>
     <nav class="site-navigation">
@@ -92,6 +94,51 @@
             <a href="/categories/" target="_self">
               分类
             </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/tags/">
+          
+            <a href="/tags/" target="_self">
+              标签
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/friends/">
+          
+            <a href="/friends/" target="_self">
+              友链
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/about/">
+          
+            <a href="/about/" target="_self">
+              关于
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path>
+          
+            <a href="javascript:void(0);" v-else>抓到我</a>
+            <ul class="nav-menu--dropdown">
+              
+                <li>
+                  <a href="https://github.com/dongyuanxin" target="_blank">
+                    Github
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://www.zhihu.com/people/godbmw/activities" target="_blank">
+                    知乎
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
       
@@ -140,45 +187,19 @@
   <span class="archive-move-on"></span>
   <span class="archive-page-counter">
     
-      <span>Wow! 一共有 3 篇文章</span>
+      <span>当前位于 1/1 页</span>
     
   </span>
   
   
     <div class="collection-title">
       <h2>
-        <span>2019</span>
+        
+          <span>标签 : 文章标签1</span>
+        
       </h2>
     </div>
   
-  
-  
-  <article class="posts-collapse">
-    <header>
-      <h2>
-        <a href="/2019/03/11/CentOS下编译SQLite3数据库加密扩展/">
-          <span>CentOS下编译SQLite3数据库加密库</span>
-        </a>
-      </h2>
-      <div class="post-meta">
-        03-11
-      </div>
-    </header>
-  </article>
-  
-  
-  <article class="posts-collapse">
-    <header>
-      <h2>
-        <a href="/2019/03/09/Ubuntu-SSR-BBR加速-安装-搭建/">
-          <span>Ubuntu-SSR-BBR加速-安装-搭建</span>
-        </a>
-      </h2>
-      <div class="post-meta">
-        03-09
-      </div>
-    </header>
-  </article>
   
   
   <article class="posts-collapse">
@@ -203,10 +224,10 @@
 
       <footer>
   <p class="site-info">
+    博客已萌萌哒运行<span id="time-to-now"></span><span class="my-face">(●'◡'●)ﾉ♥</span>
+    <br>
     Theme - <a href="https://github.com/dongyuanxin/theme-bmw">BMW</a> | Made With 💗 | Powered by <a href="https://godbmw.com/">GodBMW</a>
     <br>
-    
-      <a href="https://www.google.com/analytics/" target="_blank">Google Analytics</a>提供统计服务
     
   </p>
 </footer>
@@ -215,7 +236,7 @@
 
 <script>
 const timeToNowDOM = document.querySelector("#time-to-now");
-const startTimestamp = new Date(2019, 2, 9).getTime();
+const startTimestamp = new Date(2018, 1, 10).getTime();
 
 const updateTimeStr = () => {
   let offset = parseInt(
